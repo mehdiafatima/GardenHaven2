@@ -1,0 +1,20 @@
+.footer {
+  background-color: #068a18; 
+  color: white;
+  padding: 4px 3px;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer {
+      padding: 4px 2px; /* Adjust padding for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+      padding: 4px 1px; /* Further adjust padding for small screens */
+      font-size: 0.9rem; /* Optionally, adjust font size for small screens */
+  }
+}
